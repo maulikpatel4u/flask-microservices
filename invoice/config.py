@@ -1,6 +1,7 @@
 import os
 
-DEBUG = False
+DEBUG = True
+ENV = "development"
 CSRF_ENABLED = True
 
 SECRET_KEY = os.environ.get('SECRET_KEY') or '4d6f45a5fca12445dbac2f59c3b6c7cb1'
