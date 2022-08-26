@@ -41,6 +41,12 @@ cd user
 flask db upgrade
 ```
 
+For runserver
+```inux
+cd invoice or cd user
+flask run --host=0.0.0.0
+```
+
 For shell plus
 ```inux
 cd invoice or cd user
