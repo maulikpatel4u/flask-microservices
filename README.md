@@ -33,6 +33,14 @@ GRANT ALL PRIVILEGES ON DATABASE user_local TO trellis;
 GRANT ALL PRIVILEGES ON DATABASE invoice_local TO trellis;
 ```
 
+Now, Apply migration in both services.
+```inux
+cd invoice
+flask db upgrade
+cd user
+flask db upgrade
+```
+
 Now, for shell plus
 ```inux
 cd invoice or cd user
